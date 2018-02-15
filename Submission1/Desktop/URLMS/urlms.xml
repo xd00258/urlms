@@ -1,0 +1,109 @@
+<ca.mcgill.ecse321.urlms.model.URLMS id="1">
+  <labs id="2">
+    <ca.mcgill.ecse321.urlms.model.Lab id="3">
+      <name>Lab</name>
+      <staffMembers id="4">
+        <ca.mcgill.ecse321.urlms.model.StaffMember id="5">
+          <name>Victor</name>
+          <id>571</id>
+          <weeklySalary>23.03</weeklySalary>
+          <researchRoles id="6">
+            <ca.mcgill.ecse321.urlms.model.ResearchAssociate id="7">
+              <taskDescription>Why you read this</taskDescription>
+              <staffMember reference="5"/>
+            </ca.mcgill.ecse321.urlms.model.ResearchAssociate>
+          </researchRoles>
+          <progressUpdates id="8">
+            <ca.mcgill.ecse321.urlms.model.ProgressUpdate id="9">
+              <date>12/9/17</date>
+              <description>Finished the application</description>
+              <staffMember reference="5"/>
+            </ca.mcgill.ecse321.urlms.model.ProgressUpdate>
+            <ca.mcgill.ecse321.urlms.model.ProgressUpdate id="10">
+              <date>12/10/17</date>
+              <description>Cleaned up the application</description>
+              <staffMember reference="5"/>
+            </ca.mcgill.ecse321.urlms.model.ProgressUpdate>
+          </progressUpdates>
+          <lab reference="3"/>
+        </ca.mcgill.ecse321.urlms.model.StaffMember>
+        <ca.mcgill.ecse321.urlms.model.StaffMember id="11">
+          <name>Eric</name>
+          <id>644</id>
+          <weeklySalary>21.0</weeklySalary>
+          <researchRoles id="12">
+            <ca.mcgill.ecse321.urlms.model.ResearchAssistant id="13">
+              <taskDescription>Why you read this</taskDescription>
+              <staffMember reference="11"/>
+            </ca.mcgill.ecse321.urlms.model.ResearchAssistant>
+          </researchRoles>
+          <progressUpdates id="14">
+            <ca.mcgill.ecse321.urlms.model.ProgressUpdate id="15">
+              <date>12/9/17</date>
+              <description>Finished the mobile application.</description>
+              <staffMember reference="11"/>
+            </ca.mcgill.ecse321.urlms.model.ProgressUpdate>
+            <ca.mcgill.ecse321.urlms.model.ProgressUpdate id="16">
+              <date>12/10/17</date>
+              <description>Finalized app.</description>
+              <staffMember reference="11"/>
+            </ca.mcgill.ecse321.urlms.model.ProgressUpdate>
+          </progressUpdates>
+          <lab reference="3"/>
+        </ca.mcgill.ecse321.urlms.model.StaffMember>
+      </staffMembers>
+      <inventoryItems id="17">
+        <ca.mcgill.ecse321.urlms.model.Equipment id="18">
+          <name>Desktop</name>
+          <cost>1650.57</cost>
+          <category>Computer</category>
+          <lab reference="3"/>
+          <isDamaged>false</isDamaged>
+        </ca.mcgill.ecse321.urlms.model.Equipment>
+        <ca.mcgill.ecse321.urlms.model.SupplyType id="19">
+          <name>Resistor 50 ohm</name>
+          <cost>0.49</cost>
+          <category>Resistors</category>
+          <lab reference="3"/>
+          <quantity>10</quantity>
+        </ca.mcgill.ecse321.urlms.model.SupplyType>
+      </inventoryItems>
+      <fundingAccounts id="20">
+        <ca.mcgill.ecse321.urlms.model.FundingAccount id="21">
+          <type>Staff Funds</type>
+          <balance>4969.33</balance>
+          <expenses id="22">
+            <ca.mcgill.ecse321.urlms.model.Expense id="23">
+              <amount>27.54</amount>
+              <date>12/9/17</date>
+              <type>Bought food for the team.</type>
+              <fundingAccount reference="21"/>
+            </ca.mcgill.ecse321.urlms.model.Expense>
+            <ca.mcgill.ecse321.urlms.model.Expense id="24">
+              <amount>3.13</amount>
+              <date>12/9/17</date>
+              <type>Bought coffee.</type>
+              <fundingAccount reference="21"/>
+            </ca.mcgill.ecse321.urlms.model.Expense>
+          </expenses>
+          <lab reference="3"/>
+        </ca.mcgill.ecse321.urlms.model.FundingAccount>
+        <ca.mcgill.ecse321.urlms.model.FundingAccount id="25">
+          <type>Others</type>
+          <balance>121666.58</balance>
+          <expenses id="26">
+            <ca.mcgill.ecse321.urlms.model.Expense id="27">
+              <amount>1789.42</amount>
+              <date>12/9/17</date>
+              <type>Bought computer for the lab.</type>
+              <fundingAccount reference="25"/>
+            </ca.mcgill.ecse321.urlms.model.Expense>
+          </expenses>
+          <lab reference="3"/>
+        </ca.mcgill.ecse321.urlms.model.FundingAccount>
+      </fundingAccounts>
+      <financialReports id="28"/>
+      <uRLMS reference="1"/>
+    </ca.mcgill.ecse321.urlms.model.Lab>
+  </labs>
+</ca.mcgill.ecse321.urlms.model.URLMS>

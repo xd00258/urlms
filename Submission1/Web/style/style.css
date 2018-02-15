@@ -1,0 +1,15 @@
+.home-page-elem {
+	background-color: rgba(248,249,250,0.7);
+}
+
+.home-page-elem:hover{
+	background-color: rgba(248,249,250,0.9);
+}
+
+.menu {
+	opacity: 0.7;
+}
+
+.menu:hover{
+	opacity: 0.9;
+}

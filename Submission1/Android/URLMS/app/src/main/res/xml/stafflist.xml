@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <staff id="00001">
+        <name>Feras</name>
+    </staff>
+
+    <staff id="00002">
+        <name>Chun Ming</name>
+    </staff>
+
+    <staff id="00003">
+        <name>Eric</name>
+    </staff>
+
+    <staff id="00004">
+        <name>Victor</name>
+    </staff>
+
+    <staff id="00005">
+        <name>Justin</name>
+    </staff>
+
+    <integer name="size">5</integer>
+</resources>

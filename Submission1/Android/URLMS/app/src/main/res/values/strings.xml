@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">URLMS</string>
+
+    <!--
+        Homepage Buttons Strings
+-->
+    <string name="staff">Staff</string>
+    <string name="funding">Funding</string>
+    <string name="inventory">Inventory</string>
+
+    <!--
+        Generic  Strings
+    -->
+    <string name="appTitle">U R L M S</string>
+    <string name="backButton">Back</string>
+    <string name="edit">Edit</string>
+
+    <!--
+        staff related
+    -->
+
+    <string name="view_stafflist">View Staff Members </string>
+    <string name="refreshButton">Refresh</string>
+    <string name="addMember">Add Member</string>
+    <string name="viewProgressButton">View Progress Updates</string>
+    <string name="insertName">Insert Name</string>
+    <string name="addProgress">Add New Progress</string>
+
+    <string-array name="role_types">
+        <item>Research Associate</item>
+        <item>Research Assistant</item>
+    </string-array>
+
+
+    <!--
+        inventory related
+    -->
+
+    <string name="viewInventoryList">View Inventory Items</string>
+    <string name="insertItemName">Insert name of the item</string>
+    <string name="insertCostItem">Insert cost of the item</string>
+    <string name="addNewItem">Add New Item</string>
+    <string name="select_type">Select Type</string>
+    <string-array name="item_types">
+        <item>Equipment</item>
+        <item>Supply</item>
+    </string-array>
+
+
+    <string name="insertID">Insert ID</string>
+    <string name="insertNewName">Insert new name</string>
+    <string name="deleteButton">Delete</string>
+    <string name="updateButton">Update</string>
+    <string name="deleteAll">Erase Database</string>
+    <string name="costString">Cost $</string>
+    <string name="nameString">Name</string>
+    <string name="insertRoleDescriptrion">Role Description</string>
+    <string name="RoleDescription">Description</string>
+    <string name="RoleType">Role Type</string>
+    <string name="viewFunding">View Funding Accounts</string>
+    <string name="addNewTransaction">Add New Transaction</string>
+    <string name="viewTransactions">View Transactions</string>
+    <string name="accountString">Account</string>
+    <string name="balanceString">Balance $</string>
+    <string name="addFundingString">Add Funding</string>
+    <string name="currentBalanceString">Current Balance</string>
+    <string name="accountName">Account Name</string>
+    <string name="currentBalanceValue">Current Balance</string>
+    <string name="ResearchAssistant">Research Assistant</string>
+    <string name="ResearchAssociate">Research Associate</string>
+    <string name="insertNewId">Insert new ID</string>
+    <string name="IDString">ID</string>
+    <string name="addDateAndProgress">Add Date and Update</string>
+    <string name="DateString">Date</string>
+    <string name="ProgressString">Progress</string>
+    <string name="confirmString">Confirm</string>
+    <string name="monthDayYear">mm-dd-yyyy</string>
+    <string name="currentInventoryStatus">Inventory Status</string>
+    <string name="insertQuantityItem">Insert the quantity</string>
+    <string name="quantityString">Quantity</string>
+    <string name="totalCostStatus">Total Cost Status</string>
+    <string name="insertWeeklySalary">Enter weekly salary</string>
+    <string name="weeklySalaryString">Weekly Salary $</string>
+    <string name="insertNewWeeklySalaryString">Insert New Weekly Salary</string>
+    <string name="addFundingAccountString">Add Funding Account</string>
+    <string name="insertTypeString">Insert Account Type</string>
+    <string name="insertInitialAmount">Insert Initial Amount</string>
+    <string name="typeString">Type</string>
+    <string name="amountString">Amount $</string>
+    <string name="accountsString">Accounts</string>
+    <string name="addDateAndExpenseString">Add Date and Expense</string>
+    <string name="enterAmountString">Enter Amount</string>
+    <string name="insertExpenseDescriptionString">Expense Description</string>
+    <string name="removeString">Remove</string>
+    <string name="payDayString">Pay Day!</string>
+    <string name="inventoryString">Inventory</string>
+    <string name="ADD_QUANTITY">Add Quantity</string>
+    <string name="enterQuantity">Enter Quantity</string>
+    <string name="staffMembersString">Staff Members</string>
+    <string name="membersString">Members</string>
+    <string name="NotificationString">Notification</string>
+
+</resources>
